@@ -1,0 +1,25 @@
+<h1>DICE GANG!</h1>
+
+
+<%die1 = rand(1..6)  
+puts die1 
+
+die2 = rand(1..6)
+puts die2
+
+total = die1 + die2
+puts "The total is #{total}"
+%>
+
+
+<p>  
+  <img src="/images/dice/<%=die1%>.svg" alt= "image of die">
+  <img src="/images/dice/<%=die2%>.svg" alt= "image of die">
+
+<p> The total is <%=total%> </p>
+
+<p> 
+  <a href="/dice">Roll again</a>
+  </p>
+
+
